@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory, type RouteRecordRaw } from 'vue-router'
 import Home from './views/Home.vue'
 import Select from './views/Select.vue'
+import EditTable from './views/EdtTbl.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -20,6 +21,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/custom-decoration/select',
     name: 'Select',
     component: Select
+  },
+  {
+    path: '/custom-decoration/edttbl',
+    name: 'EditTable',
+    component: EditTable
   }
 ]
 
